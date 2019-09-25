@@ -1,9 +1,13 @@
 {
-    "name": "mint/wp_custom",
+    "name": "dynzels/wp_custom",
+    "description": "Installation custom de WordPress par Dynzels",
+    "version": "2.0",
     "authors": [
         {
             "name": "Dynzels",
-            "email": "dynzels@gmail.com"
+            "email": "dynzels@gmail.com",
+            "homepage": "https://twitter.com/ychevrot",
+            "role": "Développeur Web"
         }
     ],
   "repositories": [
@@ -14,7 +18,8 @@
   ],
   "require": {
     "php": ">=5.4",
-    "johnpbloch/wordpress": "4.9.*"
+    "johnpbloch/wordpress": "5.*",
+    "wpackagist-plugin/classic-editor": "*"
   },
   "extra": {
     "wordpress-install-dir": "wp",
