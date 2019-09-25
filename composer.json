@@ -10,22 +10,25 @@
             "role": "Développeur Web"
         }
     ],
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://wpackagist.org"
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "johnpbloch/wordpress": "5.*",
+        "wpackagist-plugin/classic-editor": "*"
+    },
+    "extra": {
+        "wordpress-install-dir": "wp",
+        "installer-paths": {
+            "content/plugins/{$name}/": ["type:wordpress-plugin"],
+            "content/themes/{$name}/": ["type:wordpress-theme"]
+        }
+    },
+    "dependencies": {
+        "lodash": ">=4.17.13"
     }
-  ],
-  "require": {
-    "php": ">=5.4",
-    "johnpbloch/wordpress": "5.*",
-    "wpackagist-plugin/classic-editor": "*"
-  },
-  "extra": {
-    "wordpress-install-dir": "wp",
-    "installer-paths": {
-        "content/plugins/{$name}/": ["type:wordpress-plugin"],
-        "content/themes/{$name}/": ["type:wordpress-theme"]
-    }
-  }
 }
