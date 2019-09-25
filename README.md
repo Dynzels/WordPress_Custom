@@ -34,4 +34,4 @@
 8. **C'est fini !** Il ne vous reste plus qu'à vous hâter à la création de votre site.
 
 ## À propos
-- Version de WordPress utilisée : 4.9.* *(package : johnpbloch)*
+- Version de WordPress utilisée : 5.* *(package : johnpbloch)*
